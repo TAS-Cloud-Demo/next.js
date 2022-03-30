@@ -4,11 +4,11 @@
 # supported frameworks: mocha|jest|jasmine
 framework: jest
 
-preRun:
-  # set of commands to run before running the tests
-  # for eg `yarn install`, `yarn build`
-  command:
-    - yarndjm
+# preRun:
+#   # set of commands to run before running the tests
+#   # for eg `yarn install`, `yarn build`
+#   command:
+#     - yarn
 
 postMerge:
   env:
