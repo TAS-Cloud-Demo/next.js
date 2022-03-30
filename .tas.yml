@@ -16,3 +16,5 @@ postMerge:
 #     HEADLESS: true
   pattern:
     - 'test/unit/**/*.test.{js,ts,tsx}'
+
+parallelism: 4
