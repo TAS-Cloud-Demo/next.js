@@ -4,15 +4,15 @@
 # supported frameworks: mocha|jest|jasmine
 framework: jest
 
-# preRun:
-#   # set of commands to run before running the tests
-#   # for eg `yarn install`, `yarn build`
-#   command:
-#     - yarn
+preRun:
+  # set of commands to run before running the tests
+  # for eg `yarn install`, `yarn build`
+  command:
+    - yarn
 
 postMerge:
   env:
-    TRACE_PLAYWRIGHT: true
-    HEADLESS: true
+#     TRACE_PLAYWRIGHT: true
+#     HEADLESS: true
   pattern:
     - 'test/unit/**/*.test.{js,ts,tsx}'
